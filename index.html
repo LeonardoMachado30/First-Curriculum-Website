@@ -28,18 +28,18 @@
             background-image: linear-gradient(to top, transparent, rgb(0, 102, 255), blue, black);
         }
 
-        .custom-info {
-            padding-left: 5%;
-            padding-top: 5%;
-            padding-right: 5%;
-        }
-
         .card-custom {
             margin-right: 40%;
             padding-bottom: 2%;
             background-color: white;
             border: 1px;
             border-radius: 10px;
+        }
+
+        .custom-info {
+            padding-left: 5%;
+            padding-top: 5%;
+            padding-right: 5%;
         }
 
         .custom-icon {
@@ -54,6 +54,33 @@
 
         #space {
             padding-right: 2%;
+        }
+
+        @media screen and (max-width: 900px) {
+            * {
+                margin: 0;
+            }
+
+            .continer-custom {
+                padding-left: 0;
+                padding-top: 0;
+                padding-bottom: 20%;
+                background-image: linear-gradient(to top, transparent, rgb(0, 102, 255), blue, black);
+            }
+
+            .card-custom {
+                margin-right: 0;
+                padding-bottom: 2%;
+                background-color: white;
+                border: 0px;
+                border-radius: 0px;
+            }
+
+            .custom-info {
+                padding-left: 5%;
+                padding-top: 5%;
+                padding-right: 5%;
+            }
         }
     </style>
 </head>
