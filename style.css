@@ -54,10 +54,12 @@
     border-radius: 10px;
     border-style: inset;
 }
+
 .linkedin{
     width: 100px;
     height: 25px;
 }
+
 .bolder {
     font-weight: bolder;
 }
