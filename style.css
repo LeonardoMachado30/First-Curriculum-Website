@@ -1,20 +1,20 @@
-
 * {
     font-family: 'Roboto Mono', monospace;
     /*font-family: 'Merriweather', serif;*/
-    overflow-x: hidden;
-    overflow-y: hidden;
+    /*overflow-x: hidden;
+    overflow-y: hidden;*/
 }
 
 .continer-custom {
     padding-left: 30%;
     padding-right: 30%;
     padding-top: 2%;
-    padding-bottom: 20%;
+    padding-bottom: 5%;
     background-image: linear-gradient(to top, transparent, rgb(0, 102, 255), blue, black);
 }
 
 .card-custom {
+    height: 400px;
     padding-bottom: 2%;
     background-color: white;
     border: 1px;
@@ -33,12 +33,37 @@
     position: relative;
 }
 
+.custom-info-fomation {
+    padding-top: 0%;
+    padding-right: 0;
+}
+
+.scroll{
+    height: 300px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 2px;
+    overflow-y: scroll;
+}
+
+.border{
+    margin-top: 5%;
+    margin-right: 5%;
+    margin-left: 5%;
+    border: 1px;
+    border-radius: 10px;
+    border-style: inset;
+}
+.linkedin{
+    width: 100px;
+    height: 25px;
+}
 .bolder {
     font-weight: bolder;
 }
 
 #space {
-    padding-right: 2%;
+    text-align: left !important;
 }
 
 @media screen and (max-width: 900px) {
@@ -55,6 +80,7 @@
     }
 
     .card-custom {
+        height: 400px;
         padding-bottom: 2%;
         background-color: white;
         border: 0px;
@@ -66,5 +92,11 @@
         padding-left: 5%;
         padding-top: 5%;
         padding-right: 5%;
+    }
+    .align-custom{
+        align-items: center !important;
+        text-align: center !important;
+        align-content: center !important;
+        margin-left: 20px !important;
     }
 }
