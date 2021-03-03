@@ -10,7 +10,7 @@
     padding-right: 30%;
     padding-top: 2%;
     padding-bottom: 5%;
-    background-image: linear-gradient(to top, transparent, rgb(0, 102, 255), blue, black);
+    background-image: linear-gradient(-45deg, transparent, rgb(0, 102, 255), blue, black);
 }
 
 .card-custom {
@@ -18,7 +18,7 @@
     padding-bottom: 2%;
     background-color: white;
     border: 1px;
-    border-radius: 10px;
+    border-radius: 10px; 
 }
 
 .custom-info {
@@ -39,7 +39,7 @@
 }
 
 .scroll{
-    height: 300px;
+    height: 250px;
     margin-top: 5px;
     margin-bottom: 5px;
     margin-right: 2px;
