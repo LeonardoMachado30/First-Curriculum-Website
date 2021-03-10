@@ -6,22 +6,33 @@
 }
 
 .continer-custom {
-    padding-left: 30%;
-    padding-right: 30%;
-    padding-top: 2%;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-top: 5%;
     padding-bottom: 5%;
+    height: 100vh;
     background-image: linear-gradient(-45deg, transparent, rgb(0, 102, 255), blue, black);
 }
 
+/**
+**  PERFIL
+**/
+
 .card-custom {
-    height: 400px;
+    height: 450px;
     padding-bottom: 2%;
     background-color: white;
     border: 1px;
-    border-radius: 10px; 
+    border-radius: 10px;
 }
 
 .custom-info {
+    padding-left: 5%;
+    padding-top: 5%;
+    padding-right: 5%;
+}
+
+.custom-info-principal{
     padding-left: 5%;
     padding-top: 5%;
     padding-right: 5%;
@@ -33,13 +44,27 @@
     position: relative;
 }
 
+
+.button-custom{
+    margin-top: 10%;
+}
+
+.linkedin{
+    width: 100px;
+    height: 25px;
+}
+
+/**
+**  EXPERIENCIAS
+**/
+
 .custom-info-fomation {
     padding-top: 0%;
     padding-right: 0;
 }
 
 .scroll{
-    height: 250px;
+    height: 350px;
     margin-top: 5px;
     margin-bottom: 5px;
     margin-right: 2px;
@@ -47,17 +72,12 @@
 }
 
 .border{
-    margin-top: 5%;
+    margin-top: 0%;
     margin-right: 5%;
     margin-left: 5%;
     border: 1px;
     border-radius: 10px;
     border-style: inset;
-}
-
-.linkedin{
-    width: 100px;
-    height: 25px;
 }
 
 .bolder {
@@ -68,26 +88,51 @@
     text-align: left !important;
 }
 
-@media screen and (max-width: 900px) {
+footer{
+    font-size: 10px;
+}
+
+/**
+**  RESPONSIVIDADE
+**/
+
+@media screen and (max-width: 1067px) {
     * {
         margin: 0;
     }
 
     .continer-custom {
-        padding-left: 10px;
-        padding-top: 10px;
-        padding-right: 10px;
-        padding-bottom: 20%;
-        background-image: linear-gradient(to top, transparent, rgb(0, 102, 255), blue, black);
+        padding-top: 2%;
+
     }
 
+    .continer-custom {
+        padding-left: 10%;
+        padding-top: 5%;
+        padding-right: 5%;
+        padding-bottom: 5%;
+    }
+    
     .card-custom {
         height: 400px;
+        width: 80vw;
         padding-bottom: 2%;
         background-color: white;
         border: 0px;
         border-radius: 0px;
         font-size: 12px;
+    }
+
+    .scroll{
+        height: 300px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        margin-right: 2px;
+        overflow-y: scroll;
+    }
+
+    .button-custom{
+        margin-top: 3%;
     }
 
     .custom-info {
@@ -100,5 +145,47 @@
         text-align: center !important;
         align-content: center !important;
         margin-left: 20px !important;
+    }
+}
+
+@media screen and (max-width: 347px) {
+    .card-custom {
+        height: 550px;
+    }
+}
+
+@media screen and (max-width: 263px) {
+    * {
+        margin: 0;
+    }
+
+    .card-custom {
+        height: 550px;
+        padding-bottom: 2%;
+    }
+
+    .scroll{
+        height: 250px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        margin-right: 2px;
+        overflow-y: scroll;
+    }
+
+    .custom-info {
+        padding-left: 5%;
+        padding-top: 5%;
+        padding-right: 5%;
+    }
+
+    .align-custom{
+        align-items: center !important;
+        text-align: center !important;
+        align-content: center !important;
+        margin-left: 20px !important;
+    }
+
+    .linkedin{
+        margin-top: 2%;
     }
 }
