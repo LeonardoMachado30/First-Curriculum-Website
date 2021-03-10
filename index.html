@@ -25,20 +25,20 @@
         <div class="card-custom">
             <nav>
                 <div class="nav nav-tabs" id="nav-tab" role="tablist" style="background-color: black;">
-                    <a class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" href="#nav-profile" role="tab"
+                    <a class="nav-link active nav-response" id="nav-home-tab" data-bs-toggle="tab" href="#nav-profile" role="tab"
                         aria-controls="nav-home" aria-selected="true">Perfil</a>
-                    <a class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" href="#nav-qualifications" role="tab"
+                    <a class="nav-link nav-response" id="nav-profile-tab" data-bs-toggle="tab" href="#nav-qualifications" role="tab"
                         aria-controls="nav-profile" aria-selected="false">Qualificações</a>
-                    <a class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" href="#nav-experience" role="tab"
+                    <a class="nav-link nav-response" id="nav-contact-tab" data-bs-toggle="tab" href="#nav-experience" role="tab"
                         aria-controls="nav-contact" aria-selected="false">Experiencias</a>
-                    <a class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" href="#nav-formation" role="tab"
+                    <a class="nav-link nav-response" id="nav-contact-tab" data-bs-toggle="tab" href="#nav-formation" role="tab"
                         aria-controls="nav-contact" aria-selected="false">Formação</a>
                 </div>
             </nav>
             <div class="tab-content" id="nav-tabContent">
                 <div class="tab-pane fade show active" id="nav-profile" role="tabpanel"
                     aria-labelledby="nav-profile-tab">
-                    <div class="custom-info">
+                    <div class="custom-info-principal">
                         <h4 id="h4-custom">
                             <ion-icon name="person" size="small" class="custom-icon"></ion-icon>
                         </h4>
@@ -55,13 +55,18 @@
                         <p>
                             <ion-icon name="calendar" size="small" class="custom-icon"></ion-icon>19/12/1999
                         </p>
-                        <a class="btn btn-secondary btn-outline-dark" style="color: white"
-                            href="https://github.com/LeonardoMachado30" target="_blank" role="button"><img
-                                src="img/baixados.png"> Github
-                        </a>
-                        <a class="btn btn-outline-dark" style="background-color: #1370ce;"
-                            href="https://www.linkedin.com/in/flavio-leonardo-ads/" target="_blank" role="button"><img
-                                src="img/linkedin.png" class="linkedin"></a>
+                        <div class="button-custom">
+                            <a class="btn btn-secondary btn-outline-dark" style="color: white"
+                                href="https://github.com/LeonardoMachado30" target="_blank" role="button"><img
+                                    src="img/baixados.png"> Github
+                            </a>
+                            <a class="btn btn-outline-dark" style="background-color: #1370ce;"
+                                href="https://www.linkedin.com/in/flavio-leonardo-ads/" target="_blank"
+                                role="button"><img src="img/linkedin.png" class="linkedin"></a>
+                        </div>
+                        <footer>
+                            <p>&copy; Todos os direito reservados a Flavio Leonardo Machado de Padua</p>
+                        </footer>
                     </div>
                 </div>
 
@@ -81,33 +86,106 @@
 
                 <div class="tab-pane fade" id="nav-experience" role="tabpanel" aria-labelledby="nav-experience-tab">
                     <div class="border">
+
                         <div class="custom-info-fomation scroll">
+
                             <div class="accordion" id="accordionExample">
+
                                 <div class="accordion-item">
-                                    <h2 class="accordion-header" id="headingOne">
+                                    <h2 class="accordion-header" id="headingCOCO">
                                         <button class="accordion-button collapsed show" type="button"
-                                            data-bs-toggle="collapse" data-bs-target="#collapseOne"
-                                            aria-expanded="false" aria-controls="collapseOne" id="space">
+                                            data-bs-toggle="collapse" data-bs-target="#collapseCOCO"
+                                            aria-expanded="false" aria-controls="collapseCOCO" id="space">
+                                            <strong>COCO BAMBU</strong>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseCOCO" class="accordion-collapse collapse"
+                                        aria-labelledby="headingCOCO" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <strong>Inicio: 11/2018</strong>
+                                            <br>
+                                            <strong>Termino: 03/2019</strong>
+                                            <br>
+                                            <strong>Cargo: Jovem Aprendiz</strong>
+                                            <br>
+                                            <strong>Descrição:</strong>
+                                            <ul>
+                                                <li>Auxiliar administrativo na elaboração de planilhas no Excel.</li>
+                                                <li>Atendimento aos cliente.</li>
+                                                <li>Atendimento aos pedidos feito pelo iFood e pelo Telemarketing.</li>
+                                                <li>Organização de ambiente de trabalho.</li>
+                                                <li>Atendimento aos clientes no salão principal.</li>
+                                                <li>Entrega de serviço excepcional para cada consumidor, ouvindo
+                                                    preocupações e respondendo dúvidas.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingCHIQUINHO">
+                                        <button class="accordion-button collapsed show" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseCHIQUINHO"
+                                            aria-expanded="false" aria-controls="collapseCHIQUINHO" id="space">
+                                            <strong>CHIQUINHO SORVETE</strong>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseCHIQUINHO" class="accordion-collapse collapse"
+                                        aria-labelledby="headingCHIQUINHO" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <strong>Inicio: 05/2019</strong>
+                                            <br>
+                                            <strong>Termino: 08/2019</strong>
+                                            <br>
+                                            <strong>Cargo: Freelancer</strong>
+                                            <br>
+                                            <strong>Descrição:</strong>
+                                            <ul>
+                                                <li>Auxiliar administrativo na elaboração de planilhas no Excel.</li>
+                                                <li>Atendimento aos pedidos.</li>
+                                                <li>Produção de sorvetes,milk-shakes, e outros produtos do comércio.
+                                                </li>
+                                                <li>Higienização do ambiente de trabalho.</li>
+                                                <li>Limpeza do ambiente de trabalho.</li>
+                                                <li>Organização do estoque e de produtos a fins.</li>
+                                                <li>Entrega de serviço excepcional para cada consumidor, ouvindo
+                                                    preocupações e respondendo dúvidas.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingOBJETIVO">
+                                        <button class="accordion-button collapsed show" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseOBJETIVO"
+                                            aria-expanded="false" aria-controls="collapseOBJETIVO" id="space">
                                             <strong>COLÉGIO OBJETIVO</strong>
                                         </button>
                                     </h2>
-                                    <div id="collapseOne" class="accordion-collapse collapse"
-                                        aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                    <div id="collapseOBJETIVO" class="accordion-collapse collapse"
+                                        aria-labelledby="headingOBJETIVO" data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
                                             <strong>Inicio: 08/2020</strong>
                                             <br>
                                             <strong>Termino: 12/2020</strong>
                                             <br>
+                                            <strong>Cargo: Estagio</strong>
+                                            <br>
                                             <strong>Descrição:</strong>
-                                            Estagio como suporte
-                                            técnico, auxiliando no suporte aos professores que dão aula no EAD, auxilio
-                                            aos funcionários, manutenção e suporte aos notebooks e computadores,
-                                            configuração de protocolos de redes para limitação de acesso, configuração
-                                            de firewall e suporte as plataformas do google para implementação das aulas.
-                                            manutenção e suporte a DataShows é a infraestrutura.
+                                            <li>Suporte técnico.</li>
+                                            <li>Auxiliando no suporte ao usuário.</li>
+                                            <li>Auxílio nos projetos da escola, como aulas online, festivais online,
+                                                gerenciamento de vídeo chamada.</li>
+                                            <li>Auxilio as ferramentas do google.</li>
+                                            <li>Manutenção aos notebooks, computadores, Data Shows é a infraestrutura.
+                                            </li>
+                                            <li>Gestão do ambiente escolar para melhor aproveitamento dos serviços
+                                                digitais.</li>
                                         </div>
                                     </div>
                                 </div>
+
                                 <div class="accordion-item">
                                     <h2 class="accordion-header" id="headingTwo">
                                         <button class="accordion-button collapsed" type="button"
@@ -124,8 +202,9 @@
                                             <br>
                                             <strong>Termino: ATUAL</strong>
                                             <br>
+                                            <strong>Cargo: Autonomo</strong>
+                                            <br>
                                             <strong>Descrição:</strong>
-                                            Trabalho como autonomo
                                             fazendo manutenção e configuração em computadores, notebooks e celulares
                                             Android fazendo 'upgrades', limpando, trocando peças, soldando,
                                             entre outros na pa parte de hardware. Na parte de software configuro e
