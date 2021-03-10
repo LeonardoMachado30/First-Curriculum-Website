@@ -1,6 +1,6 @@
 
 var div = document.getElementById('h4-custom');
-var texto = "Flávio Leonardo Machado de Padúa";
+var texto = "Flávio Leonardo M. de Padúa";
 
 function escrever(str, el) {
     var char = str.split('').reverse();
